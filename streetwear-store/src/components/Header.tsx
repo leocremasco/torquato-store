@@ -37,9 +37,9 @@ export default function Header() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-5 md:px-8 h-16 md:h-20 flex items-center justify-between">
-        <Link to="/" className="font-display text-xl md:text-2xl tracking-wide text-paper">
-          {siteConfig.storeName}
-        </Link>
+      <Link to="/" className="flex items-center">
+        <img src={`${import.meta.env.BASE_URL}logo.png`} alt={siteConfig.storeName} className="h-8 md:h-50 w-auto" />
+      </Link>
 
         <nav className="hidden lg:flex items-center gap-8 font-mono text-[11px] uppercase tracking-wider">
           {navItems.map((item) => (
