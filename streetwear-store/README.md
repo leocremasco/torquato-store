@@ -1,4 +1,4 @@
-# CONCRETO — Vitrine Streetwear
+# TORQUATO — Vitrine Streetwear
 
 Vitrine digital premium para mostrar o catálogo da loja (streetwear, camisas de
 time e tênis) e direcionar o cliente para WhatsApp/Instagram. Construído como
